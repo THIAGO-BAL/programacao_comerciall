@@ -1,12 +1,26 @@
+<!DOCTYPE html/>
 <html>
   <head>
     <meta charset="UTF-8">
     <title>Seja bem Vindo</title>
     <link rel="stylesheet" type="text/css" href="css/styles.css">
+
+    <script type="text/javascript">
+      
+      function soma(p1, p2)
+      {
+        alert("a",p1 + p2);
+
+
+      }
+
+
+    </script>>
+
   </head>
     <body>
-      <h1>Primeiro cabeçalho</h1>
-      <p>Primeiro paragrafo</p>
+      <h1>Universidade Federal do Tocantins</h1>
+      <p>Fred de Noticias</p>
       <a href=”http://ww2.uft.edu.br/”><img src="img/bras.jpg" title="Primeira imagem" height="200" width="200"></a>
       <p></p>
       <a href="http://ww2.uft.edu.br/" target="blank">Link da página</a>
@@ -69,7 +83,7 @@
 
       Mensagem: <textarea name="message" rows="10" cols="30"></textarea>
       Idade: <input type="number" name="idade" min="0" max="1000" step="1" value="30">
-      Data de nascimento: <input type="date" name="data_nascimento" min="2000-01-02">
+      <label> Data de nascimento:</label> <input type="date" name="data_nascimento" min="2000-01-02">
 
       <br>
       Auto complete: <input list="cheeses">
@@ -97,14 +111,17 @@
 
     <input type="reset" value="Limpar">
     <input type="submit" value="Enviar">
-    <button type="button" onclick="alert('Hello Word!')"> Click</button>
+    <button type="button" onclick="alert('Hello Word!')"> Bota01</button>
+
+    <button type="button" onclick="soma(5, 10)"> Botao02</button>
+    
     </form>
 
     <div id="area-mensagem">
       Elementos de bloco
     </div>
 
-    Elements <span class="destaque"> de </span>
+    Elements <span class="destaque"> de </span>linha
 
     Site:  http://www.w3schools.com/html
     </body>
